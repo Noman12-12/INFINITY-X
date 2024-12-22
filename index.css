@@ -1,0 +1,114 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  width: 100%;
+  background-color: #000000;
+  color: #00d5ff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 2rem;
+  font-family: times new roman;
+  font-weight: bold;
+}
+
+/* Form Styling */
+.login-form {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-form fieldset {
+  border: none;
+}
+
+.login-form legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:#00d5ff;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.login-form input,
+.login-form select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-form .submit-button,
+.create-account-button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background-color: #eabfff;
+  color: #3b5998;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover,
+.create-account-button:hover {
+  background-color: #00ff03;
+  
+}
+
+.create-account-button {
+  background-color: #00d5ff;
+  color: white;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 2rem;
+  background-color: #e9ebee;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer hr {
+  margin: 1rem 0;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+footer div {
+  line-height: 1.6;
+}
